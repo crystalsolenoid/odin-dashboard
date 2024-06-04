@@ -35,6 +35,15 @@ body {
 	height: 100svh;
 }
 
+#main-nav ol {
+	margin: 0;
+	padding: 0;
+}
+
+#main-nav li {
+	list-style: none;
+}
+
 /* Color */
 
 body {
