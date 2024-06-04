@@ -1,0 +1,19 @@
+/* Layout */
+
+body {
+	display: grid;
+	grid-template-columns: 1fr 4fr; /* TODO responsive */
+	grid-auto-flow: dense;
+}
+
+aside { /* TODO more specific selector */
+	grid-row: span 2;
+}
+
+header {
+	grid-column: -2 / -1;
+}
+
+main {
+	grid-column: -2 / -1;
+}
