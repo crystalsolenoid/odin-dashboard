@@ -1,5 +1,7 @@
 /* Layout */
 
+/* Top-level layout */
+
 body {
 	display: grid;
 	grid-template-columns: 1fr 4fr; /* TODO responsive */
@@ -16,6 +18,14 @@ header {
 
 main {
 	grid-column: -2 / -1;
+}
+
+/* Sidebar layout */
+
+#main-nav {
+	display: grid;
+	align-content: start;
+	gap: 4ex;
 }
 
 /* Spacing */
