@@ -6,7 +6,7 @@ body {
 	grid-auto-flow: dense;
 }
 
-aside { /* TODO more specific selector */
+#main-nav {
 	grid-row: span 2;
 }
 
@@ -37,7 +37,7 @@ header {
 	color: #000000;
 }
 
-aside { /* TODO more specific selector */
+#main-nav {
 	background-color: #1992D4;
 	color: #FFFFFF;
 }
