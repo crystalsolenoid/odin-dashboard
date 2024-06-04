@@ -17,3 +17,27 @@ header {
 main {
 	grid-column: -2 / -1;
 }
+
+/* Spacing */
+
+body {
+	margin: 0;
+	height: 100svh;
+}
+
+/* Color */
+
+body {
+	background-color: #E2E8F0;
+	color: #000000;
+}
+
+header {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+aside { /* TODO more specific selector */
+	background-color: #1992D4;
+	color: #FFFFFF;
+}
