@@ -1,0 +1,1 @@
+This is my version of the [Admin Dashboard](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard) as part of the Odin Project. The purpose of this project is to put what I've learned about CSS Grid into practice.
