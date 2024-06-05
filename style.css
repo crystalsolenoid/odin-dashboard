@@ -40,8 +40,16 @@ body {
 	padding: 0;
 }
 
-#main-nav li {
+#main-nav li,
+#main-nav div {
 	list-style: none;
+	display: flex;
+	align-items: center;
+}
+
+.icon {
+	height: 1em;
+	width: 1em
 }
 
 /* Color */
@@ -59,4 +67,52 @@ header {
 #main-nav {
 	background-color: #1992D4;
 	color: #FFFFFF;
+}
+
+#main-nav .icon {
+	filter: invert(100%);
+}
+
+/* Icons */
+
+.icon.dashboard {
+	content: url('emoticon-cool.svg');
+	width: 1.7em;
+	height: 1.7em;
+}
+
+.icon.home {
+	content: url('emoticon-cool.svg');
+}
+
+.icon.profile {
+	content: url('emoticon-cool.svg');
+}
+
+.icon.messages {
+	content: url('emoticon-cool.svg');
+}
+
+.icon.history {
+	content: url('emoticon-cool.svg');
+}
+
+.icon.tasks {
+	content: url('emoticon-cool.svg');
+}
+
+.icon.communities {
+	content: url('emoticon-cool.svg');
+}
+
+.icon.settings {
+	content: url('emoticon-cool.svg');
+}
+
+.icon.support {
+	content: url('emoticon-cool.svg');
+}
+
+.icon.privacy {
+	content: url('emoticon-cool.svg');
 }
