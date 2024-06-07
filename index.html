@@ -12,24 +12,26 @@
   <body>
     <header>
 
-      <form>
-        <button>Search</button>
+      <form class=search-bar>
+        <button class="search icon" aria-label=search></button>
         <input type="text" name="search">
       </form>
 
-      <div>
-        <button>Notifications</button>
+      <div id=account-buttons>
+        <button class="notifications icon" aria-label=notifications></button>
         <img src="pfp.png">
         <p>Morgan Oakley</p>
       </div>
 
-      <div>
+      <div class=greeting>
         <img src="pfp.png">
-        <p>Hi there,</p>
-        <p>Morgan Oakley (@morgan)</p>
+        <div>
+          <p>Hi there,</p>
+          <p>Morgan Oakley (@morgan)</p>
+        </div>
       </div>
 
-      <ul>
+      <ul class=top-actions>
         <li><button>New</button></li>
         <li><button>Upload</button></li>
         <li><button>Share</button></li>
