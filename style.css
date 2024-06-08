@@ -64,6 +64,15 @@ header > * {
 
 /* Card layout */
 
+main {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+}
+
+main > .projects {
+	grid-row: span 2;
+}
+
 .response-buttons {
 	display: flex;
 }
@@ -113,7 +122,10 @@ body {
 	color: #000000;
 }
 
-header {
+header,
+.projects > ol > li,
+.announcements > ol,
+.trending > ol {
 	background-color: #FFFFFF;
 	color: #000000;
 }
