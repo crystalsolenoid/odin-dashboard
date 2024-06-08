@@ -96,6 +96,16 @@ p {
 	margin: 0;
 }
 
+.pfp {
+	width: 3em;
+	height: 3em;
+}
+
+.trending h3 {
+	font-size: 1rem;
+	margin: 0;
+}
+
 /* Color */
 
 body {
