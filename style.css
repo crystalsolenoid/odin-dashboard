@@ -77,6 +77,11 @@ main > .projects {
 	display: flex;
 }
 
+.projects > ol {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(20ch, 1fr));
+}
+
 /* Spacing */
 
 body {
