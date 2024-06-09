@@ -89,6 +89,24 @@ main > .projects {
 	flex-direction: column;
 }
 
+.trending > ol {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-auto-flow: dense;
+}
+
+.trending > ol > li {
+	display: contents;
+}
+
+.trending .pfp {
+	grid-row: span 2;
+}
+
+.trending h3, .trending p {
+	grid-column: 2;
+}
+
 /* Spacing */
 
 body {
