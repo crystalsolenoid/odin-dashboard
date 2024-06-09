@@ -74,12 +74,19 @@ main > .projects {
 }
 
 .response-buttons {
+	align-self: end;
 	display: flex;
 }
 
 .projects > ol {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(20ch, 1fr));
+	grid-auto-rows: minmax(7em, auto);
+}
+
+.projects > ol > li {
+	display: flex;
+	flex-direction: column;
 }
 
 /* Spacing */
