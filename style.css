@@ -122,9 +122,18 @@ p {
 	height: 3em;
 }
 
-.trending h3 {
-	font-size: 1rem;
+h1, h2, h3 {
+	font-size: 1em;
 	margin: 0;
+}
+
+main {
+	font-size: 0.9rem;
+}
+
+.trending h3, main p {
+	font-size: 0.8rem;
+	font-weight: normal;
 }
 
 /* Color */
