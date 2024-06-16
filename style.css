@@ -154,6 +154,21 @@ main {
 	font-weight: normal;
 }
 
+/* Style */
+
+body {
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+p {
+	font-weight: normal;
+}
+
+header p {
+	font-weight: bold;
+}
+
 /* Color */
 
 body {
