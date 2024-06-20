@@ -118,6 +118,7 @@ body {
 	margin: 0;
 	height: 100svh;
 	--spacing-1: 10px;
+	--spacing-2: 20px;
 }
 
 ul, ol {
@@ -159,6 +160,36 @@ h1, h2, h3 {
 
 main {
 	font-size: 0.9rem;
+	gap: var(--spacing-1);
+	padding: var(--spacing-1);
+}
+
+main h2 {
+	margin-block: var(--spacing-1);
+}
+
+main ol {
+	gap: var(--spacing-1);
+}
+
+.projects li,
+.trending ol {
+	padding: var(--spacing-1);
+}
+
+.announcements ol {
+	padding-inline: var(--spacing-1);
+}
+
+.announcements li {
+	padding-block: var(--spacing-1);
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-color: #E2E8F0;
+}
+
+.announcements li:last-child {
+	border: none;
 }
 
 .trending h3, main p {
@@ -203,6 +234,10 @@ header,
 
 #main-nav .icon {
 	filter: invert(100%);
+}
+
+.announcements li {
+	border-color: #E2E8F0;
 }
 
 /* Icons */
