@@ -92,6 +92,20 @@ main > .projects {
 .projects > ol > li {
 	display: flex;
 	flex-direction: column;
+	border-width: 6px;
+}
+
+.projects > ol > li,
+.trending > ol,
+.announcements > ol {
+	border-radius: 6px;
+}
+
+body > header,
+.projects > ol > li,
+.trending > ol,
+.announcements > ol {
+	box-shadow: 1px 3px 3px #CCD1D9;
 }
 
 .trending > ol {
@@ -234,6 +248,11 @@ header,
 .trending > ol {
 	background-color: #FFFFFF;
 	color: #000000;
+}
+
+.projects > ol > li {
+	border-left-style: solid;
+	border-color: #F0B429;
 }
 
 #main-nav {
