@@ -197,6 +197,15 @@ main ol {
 	font-weight: normal;
 }
 
+body > header {
+	padding: var(--spacing-2);
+	gap: var(--spacing-2);
+}
+
+body > header > * {
+	gap: var(--spacing-1);
+}
+
 /* Style */
 
 body {
