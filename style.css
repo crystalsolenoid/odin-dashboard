@@ -162,9 +162,13 @@ p {
 	margin: 0;
 }
 
-.pfp {
+.trending .pfp {
 	width: 3em;
 	height: 3em;
+}
+
+.pfp {
+	border-radius: 50%;
 }
 
 h1, h2, h3 {
