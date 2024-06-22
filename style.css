@@ -272,6 +272,29 @@ header,
 	border-color: #E2E8F0;
 }
 
+.top-actions button {
+	background-color: #1992D4;
+	color: #FFFFFF;
+	font-weight: bold;
+	border-radius: 2em;
+	padding: 7px 25px;
+	width: 100%;
+	font-size: 1em;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #FFF;
+}
+
+.top-actions button:hover {
+	border-color: #F0B429;
+}
+
+.top-actions {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: var(--spacing-2);
+}
+
 /* Icons */
 
 .icon.dashboard {
